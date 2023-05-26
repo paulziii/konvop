@@ -6,5 +6,9 @@ int main(){
 	printf("enter decimal 2:");
 	scanf("%i", &b);
 	int c=a+b;
-	printf("summa:%i", c);
+	int d=a-b;
+	int e=a*b;
+	printf("summa:%i\n", c);
+	printf("raznost:%i\n", d);
+	printf("proizvedenie:%i\n", e);
 }
