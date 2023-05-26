@@ -7,6 +7,8 @@ int main(){
 	scanf("%i", &b);
 	int c=a+b;
 	int d=a-b;
+	int e=a*b;
 	printf("summa:%i\n", c);
-	printf("raznost:%i\n", b);
+	printf("raznost:%i\n", d);
+	printf("proizvedenie:%i\n", e);
 }
